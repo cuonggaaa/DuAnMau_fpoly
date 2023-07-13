@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DuAnMau_fpoly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryVariant">#3F51B5</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#03A9F4</item>
+        <item name="colorSecondaryVariant">#00BCD4</item>
+        <item name="colorOnSecondary">#FF5722</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="Theme.DuAnMau_fpoly" parent="Base.Theme.DuAnMau_fpoly">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item> </style>
+
+    <style name="Theme.DuAnMau_fpoly.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.DuAnMau_fpoly.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
